@@ -150,30 +150,23 @@
       KeyCode::H, ModifierFlag::CAPSLOCK,
       KeyCode::G
     </autogen>
-    
+ 
+    <!-- For this fork: zxcvb is mapped to .,mnb instead of /.,mn -->
     <autogen>--KeyToKey--
       KeyCode::Z, ModifierFlag::CAPSLOCK,
-      KeyCode::SLASH
-    </autogen>
-    <autogen>--KeyToKey--
-      KeyCode::X, ModifierFlag::CAPSLOCK,
       KeyCode::DOT
     </autogen>
     <autogen>--KeyToKey--
-      KeyCode::C, ModifierFlag::CAPSLOCK,
+      KeyCode::X, ModifierFlag::CAPSLOCK,
       KeyCode::COMMA
     </autogen>
     <autogen>--KeyToKey--
-      KeyCode::V, ModifierFlag::CAPSLOCK,
+      KeyCode::C, ModifierFlag::CAPSLOCK,
       KeyCode::M
     </autogen>
     <autogen>--KeyToKey--
-      KeyCode::B, ModifierFlag::CAPSLOCK,
+      KeyCode::V, ModifierFlag::CAPSLOCK,
       KeyCode::N
-    </autogen>
-    <autogen>--KeyToKey--
-      KeyCode::N, ModifierFlag::CAPSLOCK,
-      KeyCode::B
     </autogen>
   </item>
 </root>
