@@ -28,14 +28,14 @@ FEATURES
 ========
 If you check querty mode then CAPS-LOCK changes the querty keyboard to::
 
- ` / 9 8 7 6 5 7 8 9 0 - =
+ ` 0 9 8 / ; 5 7 8 9 0 - =
     p o i u y t I U O P [ ] \
-    ; l k j h g J K L ; '
+    ' l k j h g J K L ; '
      . , m n b N M , . / 
 
 If you check dvorak mode then CAPS-LOCK changes the dvorak keyboard to::
 
- ` z 9 8 7 6 5 7 8 9 0 [ ]
+ ` 0 9 8 z - 6 7 8 9 0 [ ]
     l r c g f y G C R L / = \
     s n t h d i H T N S -
      v w m b x B M W V Z

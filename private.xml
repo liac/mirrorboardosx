@@ -9,6 +9,22 @@
          difficult for me to figure out how to do with KeyRemap4MacBook so
          this remap relies on caps being a mode shift. Patch welcome! -->
         <!-- difference: xkb has tilde as the delete key -->
+
+        <!-- QUERTY keyboard goes from this
+         `1234567890-=
+         qwertyuiop[]\
+         asdfghjkl;'
+         zxcvbnm,./
+         
+         to this
+         `098/;57890-=
+         'lkjhgJKL;'
+         .,mnbNM,./
+         
+         whenever CAPS-LOCK has been pressed. 
+         Additionally, there are double modifiers to other keys. -->
+        
+        
         <autogen>--KeyToKey--
             KeyCode::TAB, ModifierFlag::CAPSLOCK,
             KeyCode::DELETE
@@ -90,11 +106,11 @@
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_4, ModifierFlag::CAPSLOCK,
-            KeyCode::KEY_7
+            KeyCode::SLASH
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_5, ModifierFlag::CAPSLOCK,
-            KeyCode::KEY_6
+            KeyCode::SEMICOLON
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_6, ModifierFlag::CAPSLOCK,
@@ -194,6 +210,22 @@
          difficult for me to figure out how to do with KeyRemap4MacBook so
          this remap relies on caps being a mode shift. Patch welcome! -->
         <!-- difference: xkb has tilde as the delete key -->
+        
+        <!-- Dvorak keyboard goes from this
+         `1234567890[]
+         ',.pyfgcrl/=\
+         aoeuidhtns-
+         ;qjkxbmwvz
+         
+         to this
+         `098z-67890[]
+         lrcgfyGCRL/=\
+         snthdiHTNS-
+         vwmbxBMWVZ
+         
+         whenever CAPS-LOCK has been pressed. 
+         Additionally, there are double modifiers to other keys. -->
+        
         <autogen>--KeyToKey--
             KeyCode::TAB, ModifierFlag::CAPSLOCK,
             KeyCode::DELETE
@@ -261,10 +293,13 @@
             KeyCode::CURSOR_RIGHT
         </autogen>
         
-        <!-- difference: for Dvorak: since 'z' is left out, or, where you want to type it is the SHIFT key, I mapped it to '1'. An imperfect solution. -->
+        <!-- difference: for Dvorak: since 'z', QWERTY-SLASH, is left out, or, where you want to type it is the SHIFT key, I mapped it to '4'. The DASH is mapped to '5'.
+            In QWERTY, quotes is mapped to 'a' instead of semicolon, which would
+            be the straight mirror. In Dvorak, this is regularized: DASH is mapped to 'a'. 
+            -->
         <autogen>--KeyToKey--
             KeyCode::KEY_1, ModifierFlag::CAPSLOCK,
-            KeyCode::SLASH
+            KeyCode::KEY_0
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_2, ModifierFlag::CAPSLOCK,
@@ -276,15 +311,15 @@
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_4, ModifierFlag::CAPSLOCK,
-            KeyCode::KEY_7
+            KeyCode::SLASH
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_5, ModifierFlag::CAPSLOCK,
-            KeyCode::KEY_6
+            KeyCode::QUOTE
         </autogen>
         <autogen>--KeyToKey--
             KeyCode::KEY_6, ModifierFlag::CAPSLOCK,
-            KeyCode::KEY_5
+            KeyCode::KEY_6
         </autogen>
         
         <autogen>--KeyToKey--
